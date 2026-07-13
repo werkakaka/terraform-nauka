@@ -1,0 +1,8 @@
+output "url" {
+  description = "Adres kontenera"
+  value       = "http://localhost:${var.external_port}"
+}
+
+output "container_id" {
+  value = docker_container.this.id
+}
