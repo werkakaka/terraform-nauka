@@ -1,0 +1,28 @@
+# Local .terraform directories (downloaded providers, modules cache)
+**/.terraform/*
+
+# Terraform lock file - optional to commit, but often excluded per-environment
+# .terraform.lock.hcl
+
+# State files - contain sensitive data (passwords, IPs, resource IDs) in plain text
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files - local-only overrides, not meant to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc

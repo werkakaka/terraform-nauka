@@ -1,0 +1,14 @@
+project_name = "mojprojekt"
+environment  = "dev"
+location     = "polandcentral"
+
+vnet_address_space     = "10.0.0.0/16"
+subnet_public_prefix   = "10.0.1.0/24"
+subnet_private_prefix  = "10.0.2.0/24"
+
+vm_admin_username = "azureadmin"
+vm_size           = "Standard_B1s"
+
+# Do NOT commit real passwords. Copy this file to terraform.tfvars
+# and set a real, strong password there (terraform.tfvars is gitignored).
+vm_admin_password = "REPLACE_WITH_STRONG_PASSWORD_123!"
